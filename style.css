@@ -1,0 +1,164 @@
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+    font-family: 'lucida sans unicode';
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    width: 100%;
+    height: 100%;
+    /* background-color: black; */
+}
+
+#nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 30px 40px;
+    position: fixed;
+}
+#nav h3{
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-size: 15px;
+    margin-left: 5px;
+}
+
+#intro{
+    height: 45%;
+    width: 100%;
+    /* background-color: salmon; */
+    padding: 45px;
+    gap: 5px;
+}
+
+#intro h1{
+    font-size: 80px;
+    /* color: black; */
+    line-height: 90px;
+    letter-spacing: -3px;
+}
+#place{
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#place h3 , #place h4{
+    font-size: 20px;
+    font-weight: 300;
+}
+
+#hero-image{
+    height: 87%;
+    width: 100%;
+    /* background-color: palegreen; */
+    background-image: url(pexels-maurício-mascaro-6489043.jpg);
+    background-size: cover;
+}
+
+#about{
+    height: 45%;width: 100%;
+    background-color: azure;
+    display: flex;align-items: center;justify-content: space-between;
+    padding: 50px 50px;
+
+}
+
+
+#about h2{
+    /* background-color: aquamarine; */
+    width: 50%;
+    font-size: 50px;
+    line-height: 50px;
+    
+}
+
+#about-part2{
+    height: 100%; 
+    width: 35%;
+    padding: 0px 60px;
+    border-left: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#about-part2 h3{
+    font-size: 25px;
+}
+
+#icons i{
+    font-size: 25px;
+    /* background-color: black; */
+    /* color: white; */
+    /* border-radius: 50px; */
+}
+
+#work{
+    border-top: 2px solid black;
+    height: 55%;
+    width: 100%;
+    display: flex;
+    padding: 60px 60px;
+}
+
+
+#work1{
+    width: 30%;
+    height: 100%;
+    border-right: 2px solid black;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 60px;
+}
+
+#work2{
+    width: 70%;
+    height: 100%;
+    /* background-color: aqua; */
+    padding: 0px 60px;
+}
+
+.work2-part{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0px;
+    /* border-right: 2px solid black; */
+}
+
+.work2-part :nth-child(1){
+     border-bottom: 2px solid black;  
+ 
+    padding-top: 0px;
+}
+
+.work-part2 .elem{
+    width: 50%;height: 100%;
+}
+
+.work-part2 .elem :nth-child(2){
+    padding-left: 50px;
+}
+
+.work2-part .elem h4{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.work2-part .elem p{
+    font-size: 15px;
+    color: #5a5757;
+    font-weight: 500;
+}
